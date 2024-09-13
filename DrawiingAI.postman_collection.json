@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "089d60a2-2c80-495e-b598-4610726ca910",
+		"name": "DrawiingAI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29981282"
+	},
+	"item": [
+		{
+			"name": "https://martin.hamzaworld.com",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"user_query\":\"how to draw a box\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://martin.hamzaworld.com",
+					"protocol": "https",
+					"host": [
+						"martin",
+						"hamzaworld",
+						"com"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
